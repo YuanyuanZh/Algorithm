@@ -38,7 +38,7 @@ public class LargestRectangleinHistogram {
     }
 
     public static void main(String[] args) {
-        int [] height = {2,1,5,6,2,3};
+        int [] height = {2,1,5,6,4,2};
         System.out.println(largestRectangleArea(height));
         System.out.println(largestRectangleAreaDP(height));
     }

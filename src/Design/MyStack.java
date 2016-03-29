@@ -5,7 +5,7 @@ import java.util.*;
 class MyStack {
     // Push element x onto stack.
     Queue <Integer> queue = new LinkedList<>();
-    List<Integer> r = new LinkedList<>();
+   // List<Integer> r = new LinkedList<>();
     public void push(int x) {
         Queue<Integer> temp = new LinkedList<>();
         while(!queue.isEmpty()){

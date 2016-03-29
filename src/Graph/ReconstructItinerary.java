@@ -9,7 +9,7 @@ public class ReconstructItinerary {
         HashMap<String,PriorityQueue<String>> graph = new HashMap<String,PriorityQueue<String>>();
         for (String[] ticket: tickets) {
             if (!graph.containsKey(ticket[0]))
-                graph.put(ticket[0],new PriorityQueue<>());
+                graph.put(ticket[0],new PriorityQueue<String>());
             graph.get(ticket[0]).offer(ticket[1]);
         }
         List<String> route = new ArrayList<String>();

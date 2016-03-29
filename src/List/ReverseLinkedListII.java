@@ -44,7 +44,7 @@ public class ReverseLinkedListII {
         node3.next = node4;
         node4.next = node5;
         node5.next = null;
-        ListNode rst = reverseBetween(node1,3,4);
+        ListNode rst = reverseBetween(node1,2,4);
         System.out.println(rst);
     }
 }
